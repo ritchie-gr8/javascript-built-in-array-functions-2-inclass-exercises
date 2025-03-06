@@ -8,6 +8,7 @@
 */
 
 // Start coding here
+const availableSeat = (guestList, number) => guestList.slice(0, number)
 
 const guestList = [
   "John",

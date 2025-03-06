@@ -9,6 +9,10 @@
 */
 
 // Start coding here
+const organizeSeat = (guestList, startSeatNo, numberOfGuest) => {
+  guestList.splice(startSeatNo, numberOfGuest)
+  return guestList
+}
 
 const guestList = [
   "John",
